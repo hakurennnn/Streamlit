@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 
-st.markdown('<link rel="stylesheet" href="https://example.com/style.css">', unsafe_allow_html=True)
+st.markdown('<link rel="stylesheet" href="">', unsafe_allow_html=True)
 
   def load_model():
     model=tf.keras.models.load_model('best_model.h5')
